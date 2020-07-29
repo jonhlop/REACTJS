@@ -1,0 +1,15 @@
+h4{
+    color: tomato;
+}
+
+.dish{
+    width: 120px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: #ccc;
+    padding: 2%;
+    margin: 2%;
+}
+ul li{
+    list-style: none;
+}
