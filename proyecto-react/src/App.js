@@ -8,8 +8,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edita <code>src/App.js</code> Para empezar a crear aplicaciones con react
         </p>
+        <h2>Bienvenidos a este curso</h2>
         <a
           className="App-link"
           href="https://reactjs.org"
