@@ -16,6 +16,7 @@ const Router = () =>(
         <Route path="/Platos/:name" component={Dish}></Route>
         <Route path="/Paises" component={Paises}></Route>
         <Route path="/Tienda" component={Tienda}></Route>
+        <Route component={NotFound}></Route>
        
 
     </Switch>
