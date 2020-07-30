@@ -5,6 +5,8 @@ import Dishes from './dishes';
 import Dish from './dish';
 import Paises from './paises';
 import NotFound from './notFound';
+import Tienda from "./tienda";
+
 
 const Router = () =>(
     <BrowserRouter>
@@ -13,7 +15,9 @@ const Router = () =>(
         <Route path="/Platos" component={Dishes}></Route>
         <Route path="/Platos/:name" component={Dish}></Route>
         <Route path="/Paises" component={Paises}></Route>
-        
+        <Route path="/Tienda" component={Tienda}></Route>
+       
+
     </Switch>
     </BrowserRouter>
 );

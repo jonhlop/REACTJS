@@ -1,5 +1,4 @@
 import React, { Component} from 'react';
-import
 
 
 export class Dishes extends Component{
